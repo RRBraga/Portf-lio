@@ -15,7 +15,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   { name: 'WhatsApp', url: 'https://wa.me/5562995547882', icon: WhatsAppIcon },
   { name: 'LinkedIn', url: 'https://www.linkedin.com/in/rafael-braga-753a78222', icon: LinkedInIcon },
   { name: 'Email', url: 'mailto:rafaelreis.rrb@gmail.com', icon: MailIcon },
-  { name: 'Instagram', url: 'https://instagram.com/bragaskyshot', icon: InstagramIcon },
+  { name: 'Instagram', url: 'https://instagram.com/rrbraga_2000', icon: InstagramIcon },
   { name: 'GitHub', url: 'https://github.com/RRBraga', icon: GitHubIcon },
 ];
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { DownloadIcon } from './icons';
-import { profileImage } from '../../assets/images/perfil';
+import { profileImage } from '../assets/images/perfil';
 
 const Home: React.FC = () => {
   return (
@@ -9,7 +9,7 @@ const Home: React.FC = () => {
         <div className="max-w-3xl mx-auto">
           <img
             className="w-48 h-48 rounded-full mx-auto mb-6 border-4 border-indigo-500 shadow-lg object-cover"
-            src="https://media.licdn.com/dms/image/v2/D4D03AQElfSeBhKz34g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1705232959926?e=1761782400&v=beta&t=HgyCugdo7GcF0zFfRYUr3zl1co0YYlTjFnBXouTtrI8"
+            src={profileImage}
             alt="Rafael Braga"
           />
           <h1 className="text-5xl md:text-6xl font-extrabold text-white leading-tight mb-4">

@@ -1,17 +1,26 @@
 import React from 'react';
 import { DownloadIcon } from './icons';
-import { profileImage } from '../assets/images/perfil';
+import { profileImage, profileSrcSet } from '../assets/images/perfil';
 
 const Home: React.FC = () => {
   return (
     <section id="inicio" className="min-h-screen flex items-center justify-center bg-gray-900 pt-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-3xl mx-auto">
-          <img
-            className="w-48 h-48 rounded-full mx-auto mb-6 border-4 border-indigo-500 shadow-lg object-cover"
-            src={profileImage}
-            alt="Rafael Braga"
-          />
+          <a
+            href="https://www.linkedin.com/in/rafael-braga-753a78222/?skipRedirect=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B5uuh%2Bh8GQaeUKHWiPHTFSA%3D%3D"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block hover:opacity-95 transition-opacity"
+          >
+            <img
+              className="w-48 h-48 rounded-full mx-auto mb-6 border-4 border-indigo-500 shadow-lg object-cover"
+              src={profileImage}
+              srcSet={profileSrcSet}
+              sizes="(min-width: 1440px) 33vw, (min-width: 1024px) 50vw, 100vw"
+              alt="Rafael Braga"
+            />
+          </a>
           <h1 className="text-5xl md:text-6xl font-extrabold text-white leading-tight mb-4">
             Rafael Braga
           </h1>

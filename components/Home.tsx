@@ -1,6 +1,6 @@
 import React from 'react';
 import { DownloadIcon } from './icons';
-import { profileImage, profileSrcSet } from '../assets/images/perfil';
+import profileImage from '../assets/images/perfil.jpg';
 
 const Home: React.FC = () => {
   return (
@@ -16,8 +16,6 @@ const Home: React.FC = () => {
             <img
               className="w-48 h-48 rounded-full mx-auto mb-6 border-4 border-indigo-500 shadow-lg object-cover"
               src={profileImage}
-              srcSet={profileSrcSet}
-              sizes="(min-width: 1440px) 33vw, (min-width: 1024px) 50vw, 100vw"
               alt="Rafael Braga"
             />
           </a>

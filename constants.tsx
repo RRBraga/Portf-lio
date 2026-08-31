@@ -50,6 +50,7 @@ export const SKILLS: Skill[] = [
   { name: 'JavaScript & TypeScript', description: 'Desenvolvimento front-end e back-end com as mais recentes funcionalidades.' },
   { name: 'React & React Native', description: 'Criação de interfaces de usuário reativas e de alta performance para web e mobile.' },
   { name: 'Node.js', description: 'Construção de APIs RESTful, microserviços e aplicações server-side eficientes e escaláveis.' },
+  { name: 'PHP', description: 'Desenvolvimento backend, criação de APIs RESTful e integração com bancos de dados.' },
   { name: 'MySQL & Bancos de Dados', description: 'Modelagem de dados, otimização de consultas e gerenciamento de bancos de dados relacionais.' },
   { name: 'Material UI & Tailwind CSS', description: 'Design de interfaces modernas e responsivas com bibliotecas e frameworks de CSS.' },
   { name: 'Arquitetura de Software', description: 'Planejamento e implementação de arquiteturas limpas, componentizadas e de fácil manutenção.' },
